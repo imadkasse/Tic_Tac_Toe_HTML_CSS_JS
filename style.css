@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: none;
+  width: 110px;
+  height: 100px;
+  margin: 0px 0px;
+  background-color: transparent;
+  font-size: 60px;
+  color: white;
+  border-color: rgba(0, 212, 255, 1);
+
+}
+button:hover {
+  background-color: rgb(192, 185, 185);
+}
+button:active {
+  background: #1703d1;
+}
+.title{
+  color: white;
+  background-color: red;
+  position: absolute;
+  top: 100px;
+  min-width: 330px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.paly {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(31, 9, 121, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.paly .table {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+.res{
+  color: white;
+  background-color: red;
+  position: absolute;
+  bottom: 100px;
+  min-width: 330px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
